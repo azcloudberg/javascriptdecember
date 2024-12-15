@@ -9,6 +9,12 @@
 body{
     width: 100%;
     height: 100vh;
+    background-color: beige;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,4 +51,35 @@ body{
     color: rgb(145, 145, 145);
     margin-bottom: 16px;
     max-width: 600px;
+}
+
+.definition{
+    padding: 26px;
+    /* width: 100%; */
+    min-height: 200px;
+    background-color: white;
+    color: black;
+    /* text-align: center; */
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.definition .card {
+    flex: 1;
+    max-width: 200px;
+    min-height: 150px;
+    background-color: rgb(28, 27, 28);
+    color: beige;
+    padding: 16px;
+    border-radius: 16px;
+    margin: 20px;
+}
+
+.definition .card p{
+    font-weight: 300;
+    margin-top: 12px;
+    font-size: 12px;
 }
