@@ -21,6 +21,14 @@ body{
     background-color: beige;
 }
 
+.title{
+    /* background: linear-gradient(to right, blueviolet, lightblue); */
+    background: linear-gradient(to right, blueviolet, rgb(245, 87, 24));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+}
+
 .conatiner{
     display: flex;
     flex-direction: column;
@@ -72,10 +80,18 @@ body{
     max-width: 200px;
     min-height: 150px;
     background-color: rgb(28, 27, 28);
-    color: beige;
+    /* background: linear-gradient(to left, rgb(10, 10, 10), rgb(28, 27, 28), rgb(45, 45, 45)); */
+    color: rgb(231, 231, 231);
     padding: 16px;
     border-radius: 16px;
     margin: 20px;
+    border: 2px solid;
+}
+
+.definition .card h3{
+    background: linear-gradient(to right, blueviolet, rgb(245, 87, 24));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .definition .card p{
@@ -83,3 +99,4 @@ body{
     margin-top: 12px;
     font-size: 12px;
 }
+

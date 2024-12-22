@@ -297,12 +297,12 @@
 // numbers.splice(Start, deleteCount, item1, item2,..);
 
 
-let newArray = ['Apple','Mango', 'Orange','Pineapple','Banana'];
-// let removedElements = newArray.splice(1,2);
+// let newArray = ['Apple','Mango', 'Orange','Pineapple','Banana'];
+// // let removedElements = newArray.splice(1,2);
+// // console.log(newArray);
+// // console.log(removedElements);
+// newArray.splice(1,0,"Cherry");
 // console.log(newArray);
-// console.log(removedElements);
-newArray.splice(1,0,"Cherry");
-console.log(newArray);
 
 
 
